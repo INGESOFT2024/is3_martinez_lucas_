@@ -1,14 +1,14 @@
 import { Dropdown } from "bootstrap";
 import { Chart } from "chart.js/auto";
 
-const canvas = document.getElementById('chartVentas');
+const canvas = document.getElementById('chartOperaciones');
 const ctx = canvas.getContext('2d');
 const btnactualizar = document.getElementById('actualizar');
 
 const data = {
     labels: [],
     datasets: [{
-        label: 'ventas',
+        label: 'operaciones',
         data: [],
         borderWidth: 5,
         backgroundColor: []

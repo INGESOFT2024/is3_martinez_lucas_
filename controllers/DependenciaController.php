@@ -6,7 +6,7 @@ use MVC\Router;
 
 class DependenciaController {
     public static function index(Router $router){
-        $router->render('productos/index', []);
+        $router->render('dependencias/index', []);
     }
 
 }

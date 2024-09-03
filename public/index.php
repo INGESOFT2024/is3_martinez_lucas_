@@ -12,8 +12,7 @@ $router->setBaseURL('/' . $_ENV['APP_NAME']);
 $router->get('/', [AppController::class,'index']);
 
 $router->get('/dependencias/estadisticas', [DetalleController::class, 'estadisticas']);
-$router->get('/API/detalle/estadisticas', [DetalleController::class, 'detalleVentasAPI']);
+$router->get('/API/detalle/estadisticas', [DetalleController::class, 'detalleOperacionesAPI']);
 
 // Comprueba y valida las rutas, que existan y les asigna las funciones del Controlador
 $router->comprobarRutas();
-

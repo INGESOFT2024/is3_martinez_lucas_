@@ -12,7 +12,7 @@ class DetalleController {
         $router->render('dependencias/estadisticas');
     }
    
-    public static function detalleVentasAPI(){
+    public static function detalleOperacionesAPI(){
         try{
             $sql = 'SELECT dep_nombre AS dependencia, SUM(detalle_cantidad) AS cantidad
                     FROM detalle_operaciones
