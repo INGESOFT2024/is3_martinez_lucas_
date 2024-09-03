@@ -1,11 +1,11 @@
 <div class="row mb-3">
   <div class="col text-center">
-    <h1>Sistema de control de inventario</h1>
+    <h1>Direccion de Operaciones del Estado Mayor de la Defensa Nacional</h1>
   </div>
 </div>
 <div class="row justify-content-center">
   <div class="col-lg-4">
-    <img src="./images/cit.png" width="100%" alt="">
+    <img src="./images/emdn.png" width="100%" alt="">
   </div>
 </div>
 <script src="build/js/inicio.js"></script>

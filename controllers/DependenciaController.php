@@ -4,7 +4,7 @@ namespace Controllers;
 
 use MVC\Router;
 
-class ProductoController {
+class DependenciaController {
     public static function index(Router $router){
         $router->render('productos/index', []);
     }
