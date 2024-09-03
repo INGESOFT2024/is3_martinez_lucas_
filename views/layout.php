@@ -36,7 +36,9 @@
                             <li>
                                 <a class="dropdown-item nav-link text-white " href="/is3_martinez_lucas_/dependencias/estadisticas"><i class="ms-lg-0 ms-2 bi bi-plus-circle me-2"></i>Estadística Dependencias</a>
                             </li>
-                    
+                            <li>
+                                <a class="dropdown-item nav-link text-white " href="/is3_martinez_lucas_/mapa/index"><i class="ms-lg-0 ms-2 bi bi-plus-circle me-2"></i>Mapa</a>
+                            </li>
                         
                         </ul>
                     </div> 
